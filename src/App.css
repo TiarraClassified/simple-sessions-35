@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.item-input {
+  width: 200px;
+  height: 25px;
+  border: solid 0px black;
+  box-shadow: 2px 2px 7px -2px;
+  margin-right: 25px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+.item-btn {
+  height: 30px;
+  border: none;
+  border-radius: 0px;
+  font-size: 12px;
+  box-shadow: 2px 2px 7px -2px;
+  background: lightgray;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
